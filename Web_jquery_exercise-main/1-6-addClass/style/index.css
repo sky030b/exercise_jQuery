@@ -69,7 +69,7 @@ a.View-now{ color: #000;}
 .Type2 .entry-date,
 .Type2 .entry-tit,
 .Type2 .entry-browser{ padding: 1em;}
-.Type2 .entry-list > li{ border: solid 1px #ccc; margin-top: -1px; }
+.Type2 .entry-list > li{ border: solid 1px #ccc; margin-top: -1px;}
 .Type2 .entry-browser{ text-align: right;}
 .Type2 .entry-browser span,
 .Type2 .entry-browser .fas{ display: none;}
