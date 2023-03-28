@@ -147,7 +147,30 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
-
+    $("#Now").click(function () {
+      // $("#Now").css("backgroundColor", "yellowgreen");
+      // $(this).css("backgroundColor", "yellowgreen");
+      // $(this).next().css("backgroundColor", "yellowgreen");
+      // $(this).prev().css("backgroundColor", "yellowgreen");
+      // $(this).nextAll().css("backgroundColor", "yellowgreen");
+      // $(this).prevAll().css("backgroundColor", "yellowgreen");
+      // $(this).siblings().css("backgroundColor", "yellowgreen");
+      // $(this).siblings().first().css("backgroundColor", "yellowgreen");
+      // $(this).siblings().last().css("backgroundColor", "yellowgreen");
+      // $(this).siblings().eq(2).css("backgroundColor", "yellowgreen");  // start from 0
+      // $(this).parent().css("backgroundColor", "yellowgreen");  
+      // $(this).parent().parent().css("backgroundColor", "yellowgreen"); 
+      // $(this).parents().css("backgroundColor", "yellowgreen"); 
+      // $(this).parent().siblings().last().css("backgroundColor", "yellowgreen"); 
+      // $(this).parent().children().css("backgroundColor", "yellowgreen");  // 用於有選到自己的全部同層
+      // $(this).parent().children().filter(":even").css("backgroundColor", "yellowgreen"); 
+      // $(this).parent().siblings().find("li").css("backgroundColor", "yellowgreen"); 
+      // $(this).parent().siblings().first().find("li, p").css("backgroundColor", "yellowgreen"); 
+      // $(this).parent().siblings().last().children().eq(2).css("backgroundColor", "yellowgreen"); 
+      // $(this).parent().siblings().last().children().filter(":odd").css("backgroundColor", "yellowgreen"); 
+      // $(this).parent().siblings("ul").css("backgroundColor", "yellowgreen"); // .siblings().filter("ul")
+      $(this).parent().siblings().has("li").css("backgroundColor", "yellowgreen"); // 找到後代有li的ul
+    })
   </script>
 </body>
 
