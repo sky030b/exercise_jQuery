@@ -11,7 +11,15 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script>
+		let num = 0;
 
+		setInterval(todo, 100)
+		function todo() {
+			console.log(num);
+			num+=1
+			// $("body").html("<h1>" + num + "</h1>")
+			$("body").html(`<h1>$\{${num}\}</h1>`)
+		}
 	</script>
 </body>
 
